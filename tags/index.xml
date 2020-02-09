@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on aqua</title>
+    <link>https://atanasyanew.github.io/aqua/tags/</link>
+    <description>Recent content in Tags on aqua</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Feb 2019 10:10:10 +0200</lastBuildDate>
+    
+	<atom:link href="https://atanasyanew.github.io/aqua/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://atanasyanew.github.io/aqua/tags/about/</link>
+      <pubDate>Fri, 01 Feb 2019 10:10:10 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/aqua/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>typography</title>
+      <link>https://atanasyanew.github.io/aqua/tags/typography/</link>
+      <pubDate>Fri, 01 Feb 2019 10:10:10 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/aqua/tags/typography/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

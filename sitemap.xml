@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://atanasyanew.github.io/aqua/faq/</loc>
+    <lastmod>2020-02-09T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/aqua/blog/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/aqua/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/aqua/blog/post-1/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/aqua/terms-and-conditions/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/aqua/categories/about/</loc>
+    <lastmod>2019-02-01T10:10:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/aqua/tags/about/</loc>
+    <lastmod>2019-02-01T10:10:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/aqua/categories/</loc>
+    <lastmod>2019-02-01T10:10:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/aqua/tags/</loc>
+    <lastmod>2019-02-01T10:10:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/aqua/blog/post-2/</loc>
+    <lastmod>2019-02-01T10:10:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/aqua/tags/typography/</loc>
+    <lastmod>2019-02-01T10:10:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/aqua/constacts/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/aqua/product-specification/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
