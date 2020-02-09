@@ -1,0 +1,181 @@
+############################# banner ############################
+banner:
+  enable : true
+  title : "What we do"
+  content : "We provide elegant and easy way of making your fish tank smart, controllable and monitorable. <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
+  image : "images/core/mock-laptop-03.png"
+  button: "Buy Now With $199"
+
+############################## product ###########################
+# TODO [ay]: edit product
+product:
+  name : "Aqua controller"
+  image : "images/avatar.png"
+  price : "199"
+  model : ["4 controllable devices","6 controllable devices",]
+  addons : ["no","Temperature probe","Ph probe", "Temperature and Ph probe"]
+
+############################# Feature ############################
+# TODO [ay]: Add link prop to navigate to page related for the feature
+# TODO [ay]: Use fa icons instead
+features:
+  enable : true
+  title : "Our Core Features"
+  image : "images/core/mock-phone-03.png"
+
+  # feature at the left of the image
+  leftSide:
+    # feature item loop
+  - icon : "tf-ion-ios-settings-strong"
+    title : "Controlling"
+    content : "Take control of the fish tank"
+    
+    # feature item loop
+  - icon : "tf-ion-ios-analytics"
+    title : "Analytics"
+    content : "Monitor all your sensitive data"
+    
+    # feature item loop
+  - icon : "tf-ion-wrench"
+    title : "Easy to install"
+    content : "Damn easy to install, just plug and play. [I'm an inline-style link](https://www.google.com)"
+
+
+  # feature at the right of the image
+  rightSide:
+    # feature item loop
+  - icon : "tf-ion-cube"
+    title : "Modular"
+    content : "Our system is modular, capable to fullfil your requirements"
+    
+    # feature item loop
+  - icon : "tf-shield2"
+    title : "Reliable"
+    content : "Leave the heavy load to the controller"
+
+    # feature item loop
+  - icon : "tf-ion-ios-cart-outline"
+    title : "WIP? Easy Pricing"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+
+############################# promo ############################
+# TODO [ay]: TBD this section
+promo:
+  enable : true
+  image : "images/core/mock-phone-02.png"
+  title : "WIP Designed by professional , the benefit for creative gigs"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
+            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
+
+
+############################# About Product #######################
+aboutProduct:
+  enable : true
+  title : "Why Choose Aqua"
+  items:
+    # about product item loop
+    - image : "images/core/mock-summary-01.png"
+      title : "Lorem ipsum dolor sit amet."
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+            quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable : true
+        label : "Check Features"
+        link : "#"
+        
+    # about product item loop
+    - image : "images/core/mock-tablet-01.png"
+      title : "Lorem ipsum dolor sit amet."
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+            quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable : true
+        label : "Check Features"
+        link : "#"
+
+
+#################################### Gallery ########################
+gallery:
+  enable : true
+  title : "Checkout some amazing Shorts"
+  # Set the image directory to use as base
+  directory : "images/core"
+  # Set the images to show in the gallery
+  images : ["app-mobile-03.jpg",
+            "app-mobile-02.jpg",
+            "app-mobile-01.jpg",
+            "app-mobile-04.png",
+            "app-tablet-01.png",
+            # "app-tablet-02.png",
+            # "mock-phone-01.png",
+            # "mock-laptop-01.png",
+            # "mock-laptop-03.png",
+            # "mock-phone-02.png",
+            # "mock-phone-03.png",
+            # "mock-summary-01.png",
+            # "app-desktop-01.png",
+            # "app-desktop-02.png",
+            # "mock-desktop-01.png",
+            # "mock-tablet-01.png",
+          ]
+
+
+
+################################## call to action ###################
+cta:
+  enable : true
+  bgImage : "images/core//mock-laptop-01.png"
+  title : "Get Product Updates"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  placeholder : "Your Email Address Here"
+
+############################## Team ##########################
+team:
+  enable : true
+  title : "Team"
+  teamItem:
+    # team item loop
+    - name : "Atanas"
+      designation : "Chief Executive Officer"
+      image : "images/team/avatar-cto-bw.jpg"
+      # content : ""
+      
+    # team item loop
+    - name : "Name"
+      designation : "Chief Sales Officer"
+      image : "images/avatar-female.png"
+      # content : ""
+      
+    # team item loop
+    - name : "Name"
+      designation : "Chief Technology Officer"
+      image : "images/avatar.png"
+      # content : ""
+      
+############################## Testimonial ##########################
+testimonial:
+  enable : true
+  title : "Watch Review"
+  testimonialItem:
+    # testimonial item loop
+    - name : "Jonathon Andrew"
+      designation : "CEO, Themefisher"
+      image : "images/avatar.png"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      
+    # testimonial item loop
+    - name : "Jonathon Andrew"
+      designation : "CEO, Themefisher"
+      image : "images/avatar.png"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      
+    # testimonial item loop
+    - name : "Jonathon Andrew"
+      designation : "CEO, Themefisher"
+      image : "images/avatar.png"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
