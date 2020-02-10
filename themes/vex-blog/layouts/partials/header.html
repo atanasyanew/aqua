@@ -18,8 +18,8 @@
           {{ range .Site.Menus.main }}
           <li class="nav-item">
             {{/*  TODO [ay]: fix links  */}}
-            {{/*  <a class="nav-link page-scroll" href="#{{ .URL }}">{{ .Name }}</a>  */}}
-            <a class="nav-link page-scroll" href="{{ .URL | relURL }}">{{ .Name }}</a>
+            <a class="nav-link page-scroll" href="#{{ .URL }}">{{ .Name }}</a>
+            {{/*  <a class="nav-link page-scroll" href="{{ .URL | relURL }}">{{ .Name }}</a>  */}}
           </li>
           {{ end }}
           {{/*  Other views  */}}

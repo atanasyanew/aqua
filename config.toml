@@ -43,22 +43,22 @@ theme = "vex-blog"
     
   [[menu.main]]
   name = "Features"
-  URL = "#feature"
+  URL = "feature"
   weight = 2
   
   [[menu.main]]
   name = "Gallery"
-  URL = "#gallery"
+  URL = "gallery"
   weight = 3
   
   [[menu.main]]
   name = "Testimonial"
-  URL = "#testimonial"
+  URL = "testimonial"
   weight = 4
 
   [[menu.main]]
   name = "Team"
-  URL = "#team"
+  URL = "team"
   weight = 5
 
   [[menu.view]]
