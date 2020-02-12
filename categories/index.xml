@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on aqua</title>
-    <link>https://aqua-links.com/categories/</link>
+    <link>https://atanasyanew.github.io/aqua-links/categories/</link>
     <description>Recent content in Categories on aqua</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 01 Feb 2019 10:10:10 +0200</lastBuildDate>
     
-	<atom:link href="https://aqua-links.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://atanasyanew.github.io/aqua-links/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://aqua-links.com/categories/about/</link>
+      <link>https://atanasyanew.github.io/aqua-links/categories/about/</link>
       <pubDate>Fri, 01 Feb 2019 10:10:10 +0200</pubDate>
       
-      <guid>https://aqua-links.com/categories/about/</guid>
+      <guid>https://atanasyanew.github.io/aqua-links/categories/about/</guid>
       <description></description>
     </item>
     
