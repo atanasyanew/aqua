@@ -1,7 +1,7 @@
 ################################### Default Configuration ############################
 baseurl = "https://aqua-links.com/"
 # languageCode = "en"
-title = "aqua"
+title = "aqualinks"
 theme = "vex-blog"
 
 #################################### Plugins ##########################################
@@ -104,4 +104,5 @@ instagram = "#"
 linkedin = "#"
 dribbble = "#"
 youtube = "#"
-mme = "https://m.me/FitLogApp" #1674537762575755
+facebook = "https://www.facebook.com/aquaLinksMedia"
+mme = "https://m.me/aquaLinksMedia"
