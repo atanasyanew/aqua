@@ -13,6 +13,12 @@
               <a class="page-scroll" href="#{{ .URL }}">{{ .Name }}</a>
             </li>
             {{ end }}
+
+            <!-- TODO [ay]: add rest of the social medias -->
+            <li class="list-inline-item">
+              <a class="page-scroll" href="{{ .Site.Social.facebook }}" target="_blank">Facebook</a>
+            </li>
+
           </ul>
           <p class="copyright-text">{{ .Site.Params.copyright | markdownify }}</p>
         </div>

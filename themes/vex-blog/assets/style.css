@@ -218,7 +218,7 @@ a:active {
   border-radius: 50%;
   animation: loading 6s infinite reverse linear;
   position: relative;
-  font-family: "themefisher-font" !important;
+  /* font-family: "themefisher-font" !important; */
 }
 
 .pre-loader:before {
@@ -594,4 +594,8 @@ footer p.copyright-text a:hover {
   font-weight: 700;
   font-size: 20px;
   margin-top: 10px;
+}
+
+a{
+  color: #555;
 }

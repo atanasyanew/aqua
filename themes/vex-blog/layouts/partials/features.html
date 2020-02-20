@@ -12,9 +12,13 @@
       <div class="col-md-4">
         {{ range .leftSide }}
         <div class="mb-40 text-center text-md-left">
-          <i class="d-inlin-block h2 mb-10 {{ .icon }}"></i>
+          <i class="h2 mb-10 fa {{ .icon }}" aria-hidden="true"></i>
           <h4 class="font-weight-bold mb-2">{{ .title | markdownify }}</h4>
-          <p>{{ .content | markdownify }}</p>
+          <p>{{ .content | markdownify }} 
+            {{if .link}}
+            <a class="small" href="{{ .Site.BaseURL }}/{{ .link }}"><i class="fa fa-external-link" aria-hidden="true"></i></a> 
+            {{ end }}
+          </p>
         </div>
         {{ end }}
       </div>
@@ -26,9 +30,13 @@
       <div class="col-md-4">
           {{ range .rightSide }}
         <div class="mb-40 text-center text-md-left">
-          <i class="d-inlin-block h2 mb-10 {{ .icon }}"></i>
+          <i class="h2 mb-10 fa {{ .icon }}" aria-hidden="true"></i>
           <h4 class="font-weight-bold mb-2">{{ .title | markdownify }}</h4>
-          <p>{{ .content | markdownify }}</p>
+          <p>{{ .content | markdownify }} 
+            {{if .link}}
+            <a class="small" href="{{ .Site.BaseURL }}/{{ .link }}"><i class="fa fa-external-link" aria-hidden="true"></i></a> 
+            {{ end }}
+          </p>
         </div>
         {{ end }}
       </div>

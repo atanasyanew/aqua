@@ -1,4 +1,4 @@
-<button class="snipcart-add-item btn btn-main" {{with .Site.Data.homepage.product }}
+<!-- <button class="snipcart-add-item btn btn-main" {{with .Site.Data.homepage.product }}
 data-item-id="{{ .name | urlize }}__{{ .price }}" 
 data-item-name="{{ .name }}"
 data-item-image="{{ .image | absURL }}"
@@ -9,4 +9,11 @@ data-item-custom1-options="{{ range $index, $element:= .model }}{{ if eq $index 
 {{ end }} {{ if .addons }} data-item-custom2-name="Additionals"
 data-item-custom2-options="{{ range $index, $element:= .addons }}{{ if eq $index 0 }}{{ . | title }}{{ else }}|{{ . | title }}{{ end }}{{ end }}"
 {{ end }}{{ end }}>Grab You Product Now
-</button>
+</button> -->
+
+
+
+
+<!-- <button class="snipcart-add-item btn btn-main" >Become an early bird</button> -->
+
+<a class="btn btn-main" href="{{ .Site.BaseURL }}/crowdfunding" role="button">Become an early bird</a>

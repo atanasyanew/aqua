@@ -1,7 +1,7 @@
 ################################### Default Configuration ############################
 baseurl = "https://aqua-links.com/"
 # languageCode = "en"
-title = "aqualinks"
+title = "AquaLinks"
 theme = "vex-blog"
 
 #################################### Plugins ##########################################
@@ -14,14 +14,17 @@ theme = "vex-blog"
   URL = "https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700"
   [[params.plugins.css]]
   URL = "css/bootstrap.min.css"
-  [[params.plugins.css]]
-  URL = "css/themefisher-fonts.css"
+  # TODO [ay]: remove
+  # [[params.plugins.css]]
+  # URL = "css/theme-fonts.css"
   [[params.plugins.css]]
   URL = "css/owl.carousel.css"
   [[params.plugins.css]]
   URL = "css/magnific-popup.css"
   [[params.plugins.css]]
   URL = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.css"
+  [[params.plugins.css]]
+  URL = "css/font-awsome-allcss-v51.css"
 
   # JS Plugins
   [[params.plugins.js]]
@@ -40,16 +43,17 @@ theme = "vex-blog"
 
 ###################################### Navigation ######################################
 [menu]
-    
+
+  # TODO [ay]: remove unnecessary lines of code  
   [[menu.main]]
   name = "Features"
   URL = "feature"
   weight = 2
   
-  [[menu.main]]
-  name = "Gallery"
-  URL = "gallery"
-  weight = 3
+  # [[menu.main]]
+  # name = "Gallery"
+  # URL = "gallery"
+  # weight = 3
   
   [[menu.main]]
   name = "Testimonial"
@@ -61,20 +65,20 @@ theme = "vex-blog"
   URL = "team"
   weight = 5
 
-  [[menu.view]]
-  name = "Blog"
-  URL = "blog"
-  weight = 6
+  # [[menu.view]]
+  # name = "Blog"
+  # URL = "blog"
+  # weight = 6
 
   [[menu.view]]
   name = "FAQ"
   URL = "faq"
   weight = 7
 
-  [[menu.view]]
-  name = "Contacts"
-  URL = "contacts"
-  weight = 8
+  # [[menu.view]]
+  # name = "Contacts"
+  # URL = "contacts"
+  # weight = 8
 
 
 ########################### Default parameters ##########################
@@ -83,18 +87,18 @@ logo = ""
 home = "Home"
 # Meta data
 description = "Aqua control systems"
-author = "Aqua"
+author = "AquaLinks"
 # Google Analitycs
 google_analitycs_id = "UA-135269393-2"
 # snipcart public api key
 # snipcart_api = "ZDgxY2ZiM2EtMWRmMi00M2ZkLWI1MDAtNzA2MDc0Y2Q1MzJlNjM3MTAzNDIwOTQ1NDA4NjM4"
 snipcart_api = "MjgyZmNiMDAtNDBjMy00N2RlLTlmYTEtNzc3MGIwZmI4ZDFhNjM3MTY4NjY1OTk1NjIzODcz"
 # copyright
-copyright = "Copyright 2019 &copy; Aqua | All right reserved."
+copyright = "Copyright 2019 &copy; AquaLinks | All right reserved."
 
 # Preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "" # use .png , .svg or .gif format
 
 [social]
@@ -104,5 +108,5 @@ instagram = "#"
 linkedin = "#"
 dribbble = "#"
 youtube = "#"
-facebook = "https://www.facebook.com/aquaLinksMedia"
-mme = "https://m.me/aquaLinksMedia"
+facebook = "https://fb.me/AquaLinksMedia"
+mme = "https://m.me/AquaLinksMedia"
