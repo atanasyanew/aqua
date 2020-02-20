@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://aqua-links.com/crowdfunding/</loc>
+    <lastmod>2020-02-20T11:22:01+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aqua-links.com/features/</loc>
+    <lastmod>2020-02-20T11:22:01+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://aqua-links.com/faq/</loc>
     <lastmod>2020-02-09T11:22:16+06:00</lastmod>
   </url>
@@ -29,12 +39,12 @@
   </url>
   
   <url>
-    <loc>https://aqua-links.com/categories/about/</loc>
+    <loc>https://aqua-links.com/tags/about/</loc>
     <lastmod>2019-02-01T10:10:10+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://aqua-links.com/tags/about/</loc>
+    <loc>https://aqua-links.com/categories/about/</loc>
     <lastmod>2019-02-01T10:10:10+02:00</lastmod>
   </url>
   
